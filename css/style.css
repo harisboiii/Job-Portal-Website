@@ -391,3 +391,20 @@
     padding-right: 0;
     border-right: none;
 }
+
+.btn-google {
+    height: 40px;
+  }
+  
+.btn-google,
+.btn-linkedin {
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.btn-google:hover,
+.btn-linkedin:hover {
+  border-color: #09f46b;
+}
