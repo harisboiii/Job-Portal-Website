@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board - Signup</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="card card-body">
+          <h3 class="text-center mb-4">Sign Up</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="confirm_password">Confirm Password</label>
+              <input type="password" name="confirm_password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Sign Up</button>
+            <button type="button" class="btn btn-light btn-block border" onclick="signInWithGoogle()">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" class="mr-2" width="20">
+              Signup with Google
+            </button>
+            <button type="button" class="btn btn-light btn-block border ml-2" onclick="signInWithLinkedIn()" style="margin-left: 0px !important;">
+              <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn" class="mr-3" width="20">
+              Signup with LinkedIn
+          </button>                                              
+          </div>  
+          </form>
+          <p class="text-center mt-2">Already have an account? <a href="/login.html">Log In</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
